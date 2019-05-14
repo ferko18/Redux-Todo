@@ -1,4 +1,4 @@
-import {  ADD_TASK, } from '../actions';
+import {  ADD_TASK, } from  '../Actions'
 
 const initialState = {
   todos: [
@@ -11,7 +11,7 @@ function reducer(state = initialState, action) {
     case ADD_TASK:
       return {
         ...state,
-        members: [...state.todos, { task: action.payload, completed: false }]
+        todos: [...state.todos, { task: action.payload, completed: false }]
       };
 
     default:

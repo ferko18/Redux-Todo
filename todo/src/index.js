@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-
+import reducer from './Reducers'
 //STEP 1
 //Import provider and create store
 import { Provider } from "react-redux";
