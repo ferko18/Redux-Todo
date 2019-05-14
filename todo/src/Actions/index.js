@@ -1,6 +1,6 @@
 export const ADD_TASK = "ADD_TASK";
 
-export function addTask(newTask) {
+export const addTask=(newTask)=> {
   return {
     type: ADD_TASK,
     payload: newTask
